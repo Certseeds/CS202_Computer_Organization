@@ -4,7 +4,7 @@
  # @Author: nanoseeds
  # @Date: 2020-02-19 18:07:44
  # @LastEditors: nanoseeds
- # @LastEditTime: 2021-04-17 00:12:27
+ # @LastEditTime: 2021-04-17 00:14:58
 ### 
 ##  generate it by 
 ##  https://www.richie-bendall.ml/gitattributes-generator/
@@ -23,9 +23,17 @@ CPU/CPU.sim/CPU.srcs/sources_1/ip/* linguist-vendored
 lab12/ip/prgrom/* linguist-vendored
 lab13/lab13/ip/* linguist-vendored
 lab14/Minisys1Av2.2汇编器/* linguist-vendored
+
+# vhdl
 *.vhd linguist-vendored
 *.vhdl  linguist-vendored
 *.vho  linguist-vendored
+
+# verilog
+*.vh linguist-vendored
+*.sv linguist-vendored
+*.veo linguist-vendored
+*.v linguist-vendored
 
 # scripts
 *.sh text eol=lf
